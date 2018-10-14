@@ -3,7 +3,14 @@
   <entry>
     <title><![CDATA[我的第二篇博客！！]]></title>
     <url>%2F2018%2F10%2F14%2F%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2%EF%BC%81%EF%BC%81%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[测试机后边的内容接下来就是见证奇迹的时刻 我可以设置这一句的颜色哈哈 我还可以设置这一句的大小嘻嘻 我甚至可以设置这一句的颜色和大小呵呵]]></content>
+      <categories>
+        <category>测试分类</category>
+      </categories>
+      <tags>
+        <tag>标签1</tag>
+        <tag>标签2</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[我用Hexo搭建的第一篇博客网站 mac上测试...]]></title>
