@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[我的第二篇博客！！]]></title>
+    <title><![CDATA[Hexo 介绍]]></title>
     <url>%2F2018%2F10%2F14%2F%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2%EF%BC%81%EF%BC%81%2F</url>
-    <content type="text"><![CDATA[测试机后边的内容接下来就是见证奇迹的时刻 我可以设置这一句的颜色哈哈 我还可以设置这一句的大小嘻嘻 我甚至可以设置这一句的颜色和大小呵呵() function fun(){ echo &quot;这是一句非常牛逼的代码&quot;; } fun(); ()]]></content>
+    <content type="text"><![CDATA[这是篇对Hexo博客的编写，部署，设计的详细说明。 这是斜体 或 这也是斜体这是粗体这是加粗斜体这是删除线 一级标题二级标题三级标题四级标题五级标题六级标题行内形式：我的博客参考形式：[我的博客][1]，有一个很好的平台-简书[1]:https://www/lvguoying.com/ 自动链接：我的博客地址https://www/lvguoying.com/ 无序列表项1 无序列表项2 无序列表项3 在 Hexo 中插入图片，首先需要将图片放在 source/images/ 文件夹下，然后如下方式进行插入： 表头1 表头2 表头3 表头4 默认左对齐 左对齐 居中对其 右对齐 默认左对齐 左对齐 居中对其 右对齐 默认左对齐 左对齐 居中对其 右对齐]]></content>
       <categories>
         <category>测试分类</category>
       </categories>
       <tags>
-        <tag>标签1</tag>
-        <tag>标签2</tag>
+        <tag>Hexo</tag>
+        <tag>博客写法</tag>
       </tags>
   </entry>
   <entry>
