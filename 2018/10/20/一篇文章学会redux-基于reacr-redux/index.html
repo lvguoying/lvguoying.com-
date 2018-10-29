@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="Redux 简明教程 原文链接（保持更新）：https://github.com/lvguoying/redux-simple-tutorial   写在前面本教程深入浅出，配套 简明教程、进阶教程（源码精读）以及文档注释丰满的 Demo 等一条龙服务    &amp;sect; 为什么要用 Redux 当然还有 Flux、Reflux、Mobx 等状态管理库可供选择  抛开需求讲实用性都是耍流氓，因此下">
+<meta name="description" content="Redux 简明教程 原文链接（保持更新）：https://github.com/lvguoying/redux-simple-tutorial   写在前面本教程深入浅出，配套 简明教程、进阶教程（源码精读）以及文档注释丰满的 Demo 等一条龙服务    &amp;sect; 为什么要用 Redux 当然还有 Flux、Reflux、Mobx 等状态管理库可供选择">
 <meta name="keywords" content="redux,react">
 <meta property="og:type" content="article">
 <meta property="og:title" content="一篇文章学会redux--基于reacr-redux">
 <meta property="og:url" content="http://lvguoying.com/2018/10/20/一篇文章学会redux-基于reacr-redux/index.html">
 <meta property="og:site_name" content="吕国营的个人技术博客">
-<meta property="og:description" content="Redux 简明教程 原文链接（保持更新）：https://github.com/lvguoying/redux-simple-tutorial   写在前面本教程深入浅出，配套 简明教程、进阶教程（源码精读）以及文档注释丰满的 Demo 等一条龙服务    &amp;sect; 为什么要用 Redux 当然还有 Flux、Reflux、Mobx 等状态管理库可供选择  抛开需求讲实用性都是耍流氓，因此下">
+<meta property="og:description" content="Redux 简明教程 原文链接（保持更新）：https://github.com/lvguoying/redux-simple-tutorial   写在前面本教程深入浅出，配套 简明教程、进阶教程（源码精读）以及文档注释丰满的 Demo 等一条龙服务    &amp;sect; 为什么要用 Redux 当然还有 Flux、Reflux、Mobx 等状态管理库可供选择">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-10-29T12:36:04.916Z">
+<meta property="og:updated_time" content="2018-10-29T12:44:33.977Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="一篇文章学会redux--基于reacr-redux">
-<meta name="twitter:description" content="Redux 简明教程 原文链接（保持更新）：https://github.com/lvguoying/redux-simple-tutorial   写在前面本教程深入浅出，配套 简明教程、进阶教程（源码精读）以及文档注释丰满的 Demo 等一条龙服务    &amp;sect; 为什么要用 Redux 当然还有 Flux、Reflux、Mobx 等状态管理库可供选择  抛开需求讲实用性都是耍流氓，因此下">
+<meta name="twitter:description" content="Redux 简明教程 原文链接（保持更新）：https://github.com/lvguoying/redux-simple-tutorial   写在前面本教程深入浅出，配套 简明教程、进阶教程（源码精读）以及文档注释丰满的 Demo 等一条龙服务    &amp;sect; 为什么要用 Redux 当然还有 Flux、Reflux、Mobx 等状态管理库可供选择">
 
 
 
@@ -394,7 +394,7 @@
 <h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>本教程深入浅出，配套 简明教程、<a href="https://github.com/kenberkeley/redux-simple-tutorial/blob/master/redux-advanced-tutorial.md" target="_blank" rel="noopener">进阶教程</a>（源码精读）以及文档注释丰满的 <a href="https://github.com/kenberkeley/react-demo" target="_blank" rel="noopener">Demo</a> 等一条龙服务  </p>
 </blockquote>
 <h2 id="sect-为什么要用-Redux"><a href="#sect-为什么要用-Redux" class="headerlink" title="&sect; 为什么要用 Redux"></a>&sect; 为什么要用 Redux</h2><blockquote>
-<p>当然还有 <a href="https://github.com/facebook/flux" target="_blank" rel="noopener">Flux</a>、<a href="https://github.com/reflux/refluxjs" target="_blank" rel="noopener">Reflux</a>、<a href="https://github.com/mobxjs/mobx" target="_blank" rel="noopener">Mobx</a> 等状态管理库可供选择</p>
+<p>当然还有 <a href="https://github.com/facebook/flux" target="_blank" rel="noopener">Flux</a>、<a href="https://github.com/reflux/refluxjs" target="_blank" rel="noopener">Reflux</a>、<a href="https://github.com/mobxjs/mobx" target="_blank" rel="noopener">Mobx</a> 等状态管理库可供选择<br><a id="more"></a></p>
 </blockquote>
 <p>抛开需求讲实用性都是耍流氓，因此下面由我扮演您那可亲可爱的产品经理</p>
 <h3 id="⊙-需求-1：在控制台上记录用户的每个动作"><a href="#⊙-需求-1：在控制台上记录用户的每个动作" class="headerlink" title="⊙ 需求 1：在控制台上记录用户的每个动作"></a>⊙ 需求 1：在控制台上记录用户的每个动作</h3><p>不知道您是否有后端的开发经验，后端一般会有记录访问日志的<strong>中间件</strong><br>例如，在 Express 中实现一个简单的 Logger 如下：</p>
