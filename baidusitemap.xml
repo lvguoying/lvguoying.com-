@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://lvguoying.com/2018/10/20/react%E8%BF%9B%E9%98%B6/</loc>
-    <lastmod>2018-10-29T12:59:36.193Z</lastmod>
+    <loc>http://lvguoying.com/2018/10/22/redux%E4%B8%AD%E9%97%B4%E4%BB%B6/</loc>
+    <lastmod>2018-10-29T13:04:22.549Z</lastmod>
+  </url>  <url>
+    <loc>http://lvguoying.com/2018/10/21/redux%E8%BF%9B%E9%98%B6/</loc>
+    <lastmod>2018-10-29T13:03:26.710Z</lastmod>
   </url>  <url>
     <loc>http://lvguoying.com/2018/10/20/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E5%AD%A6%E4%BC%9Aredux-%E5%9F%BA%E4%BA%8Ereacr-redux/</loc>
     <lastmod>2018-10-29T12:59:33.666Z</lastmod>
