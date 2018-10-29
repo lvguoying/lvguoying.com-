@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="吕国营的个人技术博客">
 <meta property="og:description" content="Redux 进阶教程 原文（保持更新）：https://github.com/kenberkeley/redux-simple-tutorial/blob/master/redux-advanced-tutorial.md   写在前面相信您已经看过 Redux 简明教程，本教程是简明教程的实战化版本，伴随源码分析Redux 用的是 ES6 编写，看到有疑惑的地方的，可以复制粘贴到这里在线编译 E">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-10-29T13:04:22.549Z">
+<meta property="og:updated_time" content="2018-10-29T13:07:00.409Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="redux 中间件">
 <meta name="twitter:description" content="Redux 进阶教程 原文（保持更新）：https://github.com/kenberkeley/redux-simple-tutorial/blob/master/redux-advanced-tutorial.md   写在前面相信您已经看过 Redux 简明教程，本教程是简明教程的实战化版本，伴随源码分析Redux 用的是 ES6 编写，看到有疑惑的地方的，可以复制粘贴到这里在线编译 E">
@@ -391,7 +391,7 @@
 <p>原文（保持更新）：<a href="https://github.com/kenberkeley/redux-simple-tutorial/blob/master/redux-advanced-tutorial.md" target="_blank" rel="noopener">https://github.com/kenberkeley/redux-simple-tutorial/blob/master/redux-advanced-tutorial.md</a></p>
 </blockquote>
 <blockquote>
-<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>相信您已经看过 <a href="https://github.com/kenberkeley/redux-simple-tutorial" target="_blank" rel="noopener">Redux 简明教程</a>，本教程是简明教程的实战化版本，伴随源码分析<br>Redux 用的是 ES6 编写，看到有疑惑的地方的，可以复制粘贴到<a href="http://babeljs.io/repl/" target="_blank" rel="noopener">这里</a>在线编译 ES5</p>
+<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>相信您已经看过 <a href="https://github.com/kenberkeley/redux-simple-tutorial" target="_blank" rel="noopener">Redux 简明教程</a>，本教程是简明教程的实战化版本，伴随源码分析<br>Redux 用的是 ES6 编写，看到有疑惑的地方的，可以复制粘贴到<a href="http://babeljs.io/repl/" target="_blank" rel="noopener">这里</a>在线编译 ES5<br><a id="more"></a></p>
 </blockquote>
 <h2 id="sect-Redux-API-总览"><a href="#sect-Redux-API-总览" class="headerlink" title="&sect; Redux API 总览"></a>&sect; Redux API 总览</h2><p>在 Redux 的<a href="https://github.com/reactjs/redux/tree/master/src" target="_blank" rel="noopener">源码目录</a> <code>src/</code>，我们可以看到如下文件结构：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">├── utils/</span><br><span class="line">│     ├── warning.js # 打酱油的，负责在控制台显示警告信息</span><br><span class="line">├── applyMiddleware.js</span><br><span class="line">├── bindActionCreators.js</span><br><span class="line">├── combineReducers.js</span><br><span class="line">├── compose.js</span><br><span class="line">├── createStore.js</span><br><span class="line">├── index.js # 入口文件</span><br></pre></td></tr></table></figure>
